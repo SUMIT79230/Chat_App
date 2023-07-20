@@ -1,0 +1,87 @@
+.master{
+    height:80vh;
+
+    display:flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+.login__bg {
+    /* background-image: url(https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80); */
+    background-image: url(../../src/assets/login.jpg);
+
+    height: 60vh;
+    
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    border-radius: 15px;
+    
+}
+
+.Login_form_outside
+{
+    height: 60vh;
+    width:80%; 
+
+    background-color:rgb(197, 230, 247);
+
+    margin: 80px 0px 60px 240px ;
+    border:1px solid rgb(255, 255, 255);
+    border-radius: 25px;
+
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+
+    
+}
+
+.form_inner
+{   
+    text-align: left;
+    background-color: rgb(255, 249, 242);
+    padding:0px 20px;
+
+    margin:20px 20px 5px 20px;
+
+    border-radius: 15px;
+
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+
+    
+    
+}
+
+.text-login
+{
+    margin-top: 20px;
+text-align: center;
+ font-size: xx-large;
+ text-decoration:underline;
+ 
+ font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+.vertical_line
+{
+    background-color: black;
+
+    width: 1;
+    height: 300 ;
+
+    margin-left:20px;
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+}
